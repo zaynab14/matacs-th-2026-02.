@@ -1,0 +1,17 @@
+# Keep API keys and local settings out of Git
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated prototype results
+prototype/run-output/
+
+# Common operating-system files
+.DS_Store
+Thumbs.db
